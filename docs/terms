@@ -1,4 +1,4 @@
 PyPI -> Python Package Index
 Method called as Function
 Wheel -> Packaging the python files
-
+setup.py contatins requirements path and version, author, 
