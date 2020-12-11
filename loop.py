@@ -2,8 +2,8 @@
 answer = "no"
 print(answer)
 while answer == "no":
-     answer = input("Are you there:? ")
-     print(answer)
+    answer = input("Are you there:? ")
+    print(answer)
 print("We're there")
 
 # Working on for loop
@@ -11,4 +11,4 @@ print("We're there")
 list1 = ["anand", "Kutties", "Ezhil"]
 
 for items in list1:
-    print("NUmber of names in the given list: "  '{}' .format(items))
+    print("NUmber of names in the given list: " "{}".format(items))

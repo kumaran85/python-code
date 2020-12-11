@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-hai = 'welcome'
+hai = "welcome"
 print(hai)
 
 # To avoid single quotes within vars. use \
@@ -29,19 +29,18 @@ print(upp[:-1])
 ################################
 
 vars = "Welcome To Red Hat"
-print(vars.count('Welcome'))
+print(vars.count("Welcome"))
 
-print(vars.find('Red Hat'))
+print(vars.find("Red Hat"))
 
-vars1 = vars.replace('Welcome To Red Hat', 'Linux')
+vars1 = vars.replace("Welcome To Red Hat", "Linux")
 print(vars1)
 
 ##############################
 # Strring Formatting
 
-strig = '{}  &  {}'.format(vars, vars1)
+strig = "{}  &  {}".format(vars, vars1)
 print(strig)
-
 # Below can be written in python above 3.6
 
 # strig1 = f'{vars} & {vars1} in the World'

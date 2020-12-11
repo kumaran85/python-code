@@ -1,2 +1,11 @@
 To find out the module, use sys.path after importing sys module
 python -m json.tool test.json -> To validate the JSON
+
+Two types of errors:
+
+1. syntax 
+2. runtime
+
+syntax error will not allow to execute the python.
+Once syntax correct, it will be executed.
+
